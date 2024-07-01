@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&display=swap');
+body{
+    background-color: #729762;
+    font-family: "Amiri", serif;
+}
+.container{
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid #B6C7AA;
+    margin: 100px auto;
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    background-color: #597445 ;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 2.4;
+}
+#btn{
+    font-family: "Cairo", sans-serif;   
+    background-color: #4d8e30;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px 0px #1e2a15;
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+}
